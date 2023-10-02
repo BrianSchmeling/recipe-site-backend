@@ -3,6 +3,7 @@ const Schema = mongoose.Schema;
 
 const recipeSchema = new Schema({
   mealName: String,
+  description: String,
   area: String, // Greek, Italian, Chinese etc.
   category: String, // Vegetarian, Vegan, etc.
   ingredients: Array, // {"1": "oil", "2": "salt", etc}
